@@ -62,7 +62,7 @@
 
       nixpkgs-wayland.url = "github:colemickens/nixpkgs-wayland";
 
-      anbox.url = "github:samueldr/nixpkgs/tree/feature/anbox-2021-06-refresh";
+      anbox.url = "github:samueldr/nixpkgs/feature/anbox/2020-07-29";
 
       impermanence = {
         url = "github:nix-community/impermanence";
