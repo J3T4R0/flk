@@ -62,7 +62,7 @@
 
       nixpkgs-wayland.url = "github:colemickens/nixpkgs-wayland";
 
-    #  anbox.url = "github:samueldr/nixpkgs/feature/anbox-2021-06-refresh";
+      anbox.url = "github:samueldr/nixpkgs/feature/anbox-2021-06-refresh";
 
       impermanence = {
         url = "github:nix-community/impermanence";
@@ -86,7 +86,7 @@
 
     , firefox-nightly
     , nixpkgs-wayland
-    # samueldr-anbox
+    , samueldr-anbox
 
     , ...
     } @ inputs:
